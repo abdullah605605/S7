@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Ansar | S6 Image Gallery</title>
+    <link rel="icon" href="fav.ico">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <h1>Different Ways of Using Images</h1>
+            <p>Explore three ways to display images with CSS.</p>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="gallery.html" aria-current="page">Gallery</a>
+                   <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="intro">
+            <h2>Image Gallery</h2>
+            <p>These cards demonstrate a faded background image, a grayscale image, and an image that opens at its original size.</p>
+        </section>
+
+        <section class="gallery-grid" aria-label="Image examples">
+            <article class="gallery-card background-card">
+                <div class="background-card-content">
+                    <p class="card-number">01 / BACKGROUND</p>
+                    <h3>Faded background image</h3>
+                    <p>The first gallery photo is used as this card's background. A dark overlay keeps the heading and text easy to read.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <img class="gallery-image grayscale-image" src="image/2.jpeg" alt="Second photograph in the gallery, shown in grayscale">
+                <div class="card-content">
+                    <p class="card-number">02 / GRAYSCALE</p>
+                    <h3>Black and white</h3>
+                    <p>The second gallery photo uses a CSS grayscale filter while remaining an image element.</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <a class="image-link" href="image/3.jpeg" target="_blank" rel="noopener" aria-label="Open the third gallery photograph at its original size in a new tab">
+                    <img class="gallery-image" src="image/3.jpeg" alt="Third photograph in the gallery; select it to open the original image">
+                </a>
+                <div class="card-content">
+                    <p class="card-number">03 / CLICK TO OPEN</p>
+                    <h3>View the original</h3>
+                    <p>Select the image above to open the original image file in a separate browser tab.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+      <p>Abdullah Ansar · Modified for Assignment S7</p>
+    </footer>
+</body>
+</html>
